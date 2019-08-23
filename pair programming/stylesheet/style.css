@@ -1,0 +1,290 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/**/
+*, *:before, *:after {
+	    box-sizing: border-box;
+	 }
+	.clearfix:before, .clearfix:after {
+		content: "";
+		display: table;
+	}
+	.clearfix:after {
+		clear: both;
+	}
+	.wrapper {
+		max-width: 1200px;
+		margin: 0 auto;
+	}
+
+
+body {
+	font-family: 'Merriweather Sans', sans-serif;
+	background-image: linear-gradient(to left, red, black);
+
+}
+
+/**/
+
+
+.container {
+	max-width: 80%;
+	margin: 0 auto;
+	display:flex;
+	justify-content: space-around;
+
+}
+
+.navigation {
+	float: right;
+	word-spacing: 16px;
+}
+h1 {
+	/*float: left;*/
+	font-size: 27px;
+	font-weight: bolder;
+	color: white;
+}
+h1, a {
+	line-height: 60px;
+}
+.navigation a {
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 15px;
+	font-weight: 600;
+} 
+nav {
+	margin-bottom: 150px;
+	
+}
+
+
+.sec-1 {
+	background-image: linear-gradient(to right bottom, yellow 50%,  red 50%);
+	height: 500px;
+	
+}
+.hero {
+	display: flex;
+	justify-content: flex-start;
+	height: 200px;
+	width: 100%;
+
+
+}
+.item1 {
+	max-width: 50%;
+}
+.item2 {
+	max-width: 50%;
+	margin-left: 45px;
+}
+h2 {
+	color: white;
+	font-size: 40px;
+	font-weight: 600;
+	line-height: 1.2;
+	padding-right: 70px;
+	border-right: 1px solid rgba(255,255,255, 0.2);
+	
+}
+.item2 p {
+	color: rgba(255,255,255,0.5);
+	font-weight: 600;
+	line-height: 1.6;
+	
+}
+button {
+	background-color: #5ebd8b;
+	color: white;
+	border:none;
+	text-transform: uppercase;
+	font-size: 12px; 
+	font-weight: 600;
+	word-spacing: 5px;
+	padding: 10px 30px 10px 30px;
+	border-radius: 24px;
+	cursor: pointer;
+}
+
+.sec-2{
+	margin-top: 60px;
+	margin-bottom: 80px;
+
+}
+h3 {
+	font-size: 30px;
+	font-weight: 600;
+	margin-bottom: 40px;
+	color: white;
+}
+.sec-2 p {
+	margin-right: 40px;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 1.5;
+	margin-bottom: 25px;
+}
+.sec-2 .item1 {
+	border-right: 1px solid grey;
+}
+.sec-2 button {
+	background-color: white;
+	color: black;
+	border:1px solid grey;
+}
+ol {
+	line-height: 2.5;
+}
+.sec-2 img {
+	height: 15px;
+	width: 15px;
+}
+span {
+	margin-left: 8px;
+}
+.image {
+	width: 35%;
+}
+.text {
+	width: 60%;
+	padding: 60px 30px;
+	background-image: linear-gradient(to right, red, black);
+	color: white;
+
+}
+
+.row {
+	display: flex;
+	background-color: white;
+	margin-bottom: 40px;
+	border-bottom: 1px solid rgba(255,255,255,0.);
+}
+.sec-3 img {
+	width: 100%;
+	border: 1px solid black;
+	outline: 1px solid red;
+}
+h4 {
+	margin-top: 40px;
+	font-size: 22px;
+	font-weight: 600;
+	padding-bottom: 30px;
+	color: white;
+	
+}
+.sec-3 {
+	background-color: #fafafa;
+	padding-top: 80px;
+	padding-bottom: 50px;
+}
+.sec-3 p {
+	line-height: 1.5;
+	font-weight: 500;
+	color: grey;
+
+}
+.sec-3 button {
+	background-color: white;
+	color: black;
+	border:1px solid grey;
+	margin-top:30px;
+}
+.sec-3 .btn {
+	text-align: center;
+	margin-bottom: 0px;
+}	
+.sec-3 .btn button {
+	background-color: #fafafa;
+}
+.hero {
+	margin-top: 80px;
+}
+h5 {
+	font-size: 24px;
+	font-weight: 600;
+	margin-bottom: 40px;
+	color: white;
+}
+.item1 p {
+	margin-bottom: 30px;
+	line-height: 1.5;
+	font-weight: 500;
+	color: white;
+}
+.name {
+	padding: 10px;
+	width: 43%
+	margin-bottom:20px;
+}
+.email {
+	padding: 10px;
+	width: 43%;
+	margin-bottom: 20px;
+	margin-left: 10%;
+}
+.message {
+	width: 85%;
+	height:150px;
+}
+i {
+	color:  #5ebd8b;
+}
+.sec-3 .item1 {
+	border-right:  solid rgba(255,255,255, 0.3);
+
+}
+.sec-3 .send button {
+	background-color: white;
+	color: black;
+	border:1px solid grey;
+
+}
